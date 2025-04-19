@@ -1,0 +1,29 @@
+{
+    "name": "ock/class-files-iterator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andreas Hennings",
+            "email": "andreas@dqxtech.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Ock\\ClassFilesIterator\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ock\\ClassFilesIterator\\Tests\\": "tests/src"
+        }
+    },
+    "require": {
+        "php": ">=8.3",
+        "ock/helpers": "self.version",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5.38"
+    }
+}
